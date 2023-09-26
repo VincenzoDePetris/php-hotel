@@ -40,6 +40,12 @@
 
     ];
 
+    foreach ($hotels as $hotelClass){
+      foreach ($hotelClass as $name) {
+        echo $name, '<br>';
+      }
+    }
+
 ?>
 
 <!DOCTYPE html>
